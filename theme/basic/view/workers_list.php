@@ -1,0 +1,1 @@
+<?phpif (empty($list)) {	echo '<p>No Workers! </p>' ;} else {	echo '<p>List of Workers:</p>' ;	echo '<table>' ;	$counter = 1 ;	foreach ($list as $worker) {		echo '<tr>' ;			echo '<td>'.$counter.'.</td>' ;			echo '<td>'.$worker['name'].'</td>' ;		echo '</tr>' ;		$counter++ ;	}	echo '</table>' ;}?>
