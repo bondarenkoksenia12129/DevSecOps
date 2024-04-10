@@ -1,0 +1,10 @@
+table { 
+	border-collapse: collapse; 
+}
+	
+th, td { 
+	border: dotted 1px; 
+	padding:3px;
+}
+	
+.selected {font-weight: bold;}
