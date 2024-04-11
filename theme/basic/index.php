@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head>    <meta charset="utf-8">    <title>HUTS & MONKEYS</title>	<?php 		echo $style ;		echo $script ; 	?>	<link rel="stylesheet" type="text/css" href="./theme/basic/styles.css" /></head><body>	<div id="menu">		<?php echo $menu ?>	</div>	<div id="content">		<?php echo $content ?>	</div></body></html>
