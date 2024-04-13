@@ -1,0 +1,1 @@
+<?phpclass WorkersMdl extends Model {		public function getList()	{		global $cf ;		$list = array() ;				$q = "SELECT id, name FROM worker" ;			$result = $cf['dbh']->query($q) ;		while ($row = $result->fetch_assoc()) {			$list[] = $row ;		}		return $list ;	}	}
